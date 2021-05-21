@@ -1204,15 +1204,6 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@pantherswap-libs/panther-swap-core@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@pantherswap-libs/panther-swap-core/-/panther-swap-core-0.1.0.tgz#f9d7025a9412452d0e14683147b8472156e6aa1f"
-  integrity sha512-55EzWpF2mCS9HEMzHsZ1QIxJ1ehshiF+SqB394Y8Nchbo+BFfPeZMka4ngYvb6uZIqwgPhEimH3XK4d+xkIruQ==
-  dependencies:
-    truffle "^5.1.41"
-    truffle-flattener "^1.4.4"
-    truffle-hdwallet-provider "^1.0.17"
-
 "@resolver-engine/core@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@resolver-engine/core/-/core-0.2.1.tgz#0d71803f6d3b8cb2e9ed481a1bf0ca5f5256d0c0"
@@ -1246,6 +1237,15 @@
     "@resolver-engine/core" "^0.2.1"
     debug "^3.1.0"
     hosted-git-info "^2.6.0"
+
+"@ricefarm/rice-core@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@ricefarm/rice-core/-/rice-core-0.1.0.tgz#dd2fddeac8dee5fc48071fc1a8608e75f04e8a73"
+  integrity sha512-Jdavcfo5j0HI8DR/g1oF+zQvBhMCkiBHwYsqMYlw1cgGuznxPVCFcLmGb0WM3nl2wKhIG8sxVJxr0BdFAhKyoQ==
+  dependencies:
+    truffle "^5.1.41"
+    truffle-flattener "^1.4.4"
+    truffle-hdwallet-provider "^1.0.17"
 
 "@rollup/plugin-commonjs@^11.0.0":
   version "11.1.0"

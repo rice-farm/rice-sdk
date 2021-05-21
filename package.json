@@ -1,16 +1,16 @@
 {
-  "name": "@pantherswap-libs/sdk",
+  "name": "@ricefarm/sdk",
   "license": "MIT",
   "version": "1.0.0",
-  "description": "🛠 An SDK for building applications on top of pantherswap.",
+  "description": "🛠 An SDK for building applications on top of Rice Farm.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pantherswap/panther-swap-sdk.git",
+  "repository": "https://github.com/rice-farm/rice-sdk.git",
   "keywords": [
-    "pantherswap",
+    "ricefarm",
     "ethereum"
   ],
   "module": "dist/sdk.esm.js",
@@ -23,7 +23,7 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@pantherswap-libs/panther-swap-core": "^0.1.0",
+    "@ricefarm/rice-core": "^0.1.0",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.1",

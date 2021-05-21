@@ -1,4 +1,4 @@
-# PantherSwap SDK
+# RiceFarm SDK
 
 ## Running tests
 
@@ -7,19 +7,19 @@ To run the tests, follow these steps. You must have at least node v10 and [yarn]
 First clone the repository:
 
 ```sh
-git clone https://github.com/pantherswap/panther-swap-sdk.git
+git clone https://github.com/rice-farm/rice-sdk.git
 ```
 
-Move into the panther-swap-sdk working directory
+Move into the rice-sdk working directory
 
-```sh
-cd panther-swap-sdk/
+```sh`
+cd rice-sdk/
 ```
 
 Install dependencies
 
 ```sh
-yarn install
+yarn
 ```
 
 Run tests
